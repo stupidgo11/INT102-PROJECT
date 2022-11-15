@@ -1,0 +1,117 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+/*body*/
+body {
+    font-family: Georgia, serif; 
+    font-size: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+  }
+
+  #layout {
+    display: grid;
+    grid-template-rows: 3em ;
+    grid-template-columns: 1fr 1fr 1fr
+  }
+
+
+/* header styles */
+header {
+	color: white;
+	background:  url(../images/forest.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 5px 5px 5px black;
+  
+}
+header h1 {
+	margin-top:0;
+  padding: 15px;
+  border: 3px solid;
+  border-radius: 1.5em;
+}
+
+/*nav style*/
+nav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  nav, footer {
+    font-family: verdana, sans-serif;
+    background-color: #dc6af8;
+  }
+  nav ul li a:link, nav ul li a:visited {
+    color: #000000;
+  }
+  nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+    color: #fff;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex:auto
+  }
+  nav ul li {
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+  nav ul li a {
+    display: block;
+    padding: .5em 5em;
+    margin: .75em;
+    text-decoration: none; 
+  }
+.bg{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #d343f7;
+}
+
+#layout3{
+  display: grid;
+  grid-template-rows: 20px [main-start] 500px auto [main-end] 20px 3em;
+  grid-template-columns: [main-start]2fr[main-end] 20px 640px;
+  background-color: #c595d1;
+}
+
+.left{
+  color: white;
+  font-size: 700%;
+  grid-area: main;
+  margin: 0;
+  align-self: flex-start;
+  /* background-color: #dc6af8; */
+}
+
+.right{
+  grid-area:2/3/4/4;
+}
+
+footer {
+  grid-area: -2/1/-1/-1;
+  background-color: #dc6af8;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+   /* clears browser styles for figures */
+}

@@ -1,0 +1,51 @@
+#layout2 {
+    display: grid;
+    grid-template-rows:  20px [main-start] 10px 384px auto 10px 80px 80px [main-end] 10px 3em;
+    grid-template-columns: 50px [main-start] 20px 1fr [main-end] 30px 216px 50px;
+
+}
+
+#PicJ {
+    grid-area:3/5/4/6;
+    
+}
+
+#PicC {
+    grid-area: 6/5/7/6;
+}
+
+
+main {
+    font-family: 'Stint Ultra Expanded', Georgia, serif;
+    background-color: white;
+    line-height: .5em;
+    color: #555;
+    padding: 1em;
+    border: double 4px #EADDC4;
+    border-radius: 25px;
+    /* grid-row: main-start/main-end;
+    grid-column: main-start/main-end; */
+    grid-area: main;
+}
+
+/* main p {
+    line-height: 1em;
+} */
+  
+  
+  /* misc styles */
+  
+figure {
+    margin: 0;
+    padding: 0;
+     /* clears browser styles for figures */
+}
+  
+span{
+    color: orangered;
+}
+
+footer {
+    grid-area: -2/1/-1/11;
+    background-color: #c595d1;
+}
