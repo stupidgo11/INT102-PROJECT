@@ -20,6 +20,10 @@
     color: rgb(255, 39, 136);
 }
 
+.wh{
+    color: white;
+}
+
 /*days of week*/
 .sunday{
     background-color: rgb(255, 77, 106);
