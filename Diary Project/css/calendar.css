@@ -67,6 +67,16 @@ body {font-family: Verdana, sans-serif;}
   color: white !important
 }
 
+.days li .actives {
+  padding: 5px;
+  background: #2be4f8;
+  color: white !important
+}
+
+a {
+  text-decoration: none;
+}
+
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
   .weekdays li, .days li {width: 13.1%;}
