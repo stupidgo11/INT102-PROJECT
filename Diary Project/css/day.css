@@ -2,13 +2,24 @@
     font-family: Georgia, serif; 
     font-size: 100%;
     display: grid;
-    grid-template-rows: 20px [main-start] 500px auto [main-end] 20px 3em;
+    grid-template-rows: 20px [main-start] 600px auto [main-end] 20px 3em;
     grid-template-columns: 20px 1fr 20px [main-start] 2fr [main-end] 20px;
 }
+
 .sizeL{
     font-size: 200%;
     color: rgb(255, 255, 255);
 }
+
+.sizeL2{
+    font-size: 200%;
+    color: rgb(123, 0, 255);
+}
+
+.cl{
+    color: rgb(255, 39, 136);
+}
+
 /*days of week*/
 .sunday{
     background-color: rgb(255, 77, 106);
@@ -57,10 +68,32 @@
     margin: 0;
     padding: 0;
     color: gray;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 #day ul{
     grid-area: main;
     margin: 0;
     padding: 20px;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
 }
+
+/* main {
+    font-family: 'Stint Ultra Expanded', Georgia, serif;
+    line-height: .5em;
+    color: #555;
+    padding: 1em;
+    border: hidden 4px #EADDC4;
+    border-radius: 25px;
+    grid-area: main;
+} */
+
+.cen{
+    align-self: center;
+    justify-self: center;
+}
+
+
+
