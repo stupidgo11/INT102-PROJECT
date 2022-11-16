@@ -1,0 +1,29 @@
+#day{
+    font-family: Georgia, serif; 
+    font-size: 100%;
+    display: grid;
+    grid-template-rows: 20px [main-start] 500px auto [main-end] 20px 3em;
+    grid-template-columns: 20px 1fr 20px [main-start] 2fr [main-end] 20px;
+}
+.sizeL{
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+}
+.tuesday{
+    background-color: rgb(255, 218, 224);
+    padding: 25px 25px;
+    width: 100%;
+}
+
+#day .leftside{
+    grid-area: 2/2/3/3;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+#day ul{
+    grid-area: main;
+    margin: 0;
+    padding: 20px;
+}
