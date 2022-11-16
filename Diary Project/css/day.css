@@ -9,8 +9,45 @@
     font-size: 200%;
     color: rgb(255, 255, 255);
 }
+/*days of week*/
+.sunday{
+    background-color: rgb(255, 77, 106);
+    padding: 25px 25px;
+    width: 100%;
+}
+
+.monday{
+    background-color: rgb(243, 255, 82);
+    padding: 25px 25px;
+    width: 100%;
+}
+
 .tuesday{
     background-color: rgb(255, 218, 224);
+    padding: 25px 25px;
+    width: 100%;
+}
+
+.wednesday{
+    background-color: rgb(163, 248, 65);
+    padding: 25px 25px;
+    width: 100%;
+}
+
+.thursday{
+    background-color: rgb(255, 150, 51);
+    padding: 25px 25px;
+    width: 100%;
+}
+
+.friday{
+    background-color: rgb(104, 237, 255);
+    padding: 25px 25px;
+    width: 100%;
+}
+
+.saturday{
+    background-color: rgb(221, 85, 255);
     padding: 25px 25px;
     width: 100%;
 }

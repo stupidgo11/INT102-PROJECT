@@ -6,11 +6,17 @@
 
     <link href="/css/calendar.css" rel="stylesheet">
     <link href="/css/tab.css" rel="stylesheet">
+    <link href="/css/day.css" rel="stylesheet">
 <style>
-      #layout {
-    display: grid;
-    grid-template-rows: 3em;
-  }
+    #layout {
+        display: grid;
+        grid-template-rows: 3em;
+    }
+
+    div ul li a{
+        color: white;
+    }
+
 </style>
 </head>
 
@@ -31,13 +37,13 @@
 
 <div>        
     <div class="month">      
-    <ul>
-        <li class="prev">&#10094;</li>
-        <li class="next">&#10095;</li>
-        <li>November<br>
-        <span style="font-size:18px">2022</span>
-        </li>
-    </ul>
+        <ul>
+            <li class="prev"><a href="/html/Day/Day5.html">&#10094;</a></li>
+            <li class="next"><a href="/html/Day/Day10.html">&#10095;</a></li>
+            <li>November<br>
+            <span style="font-size:18px">2022</span>
+            </li>
+        </ul>
     </div>
 
     <ul class="weekdays">
@@ -59,7 +65,7 @@
         <li><a href="/html/Day/Day5.html"><span class="active">5</span></a></li>
         <li>6</li>
         <li>7</li>
-        <li><a href="/html/Day/Day8.html"><span class="active">8</span></a></li>
+        <li><a href="/html/Day/Day8.html"><span class="actives">8</span></a></li>
         <li>9</li>
         <li><a href="/html/Day/Day10.html"><span class="active">10</span></a></li>
         <li>11</li>
@@ -82,6 +88,15 @@
         <li>28</li>
         <li>29</li>
         <li>30</li>
+    </ul>
+</div>
+
+<div id="day" class="tuesday">
+    <h1 class="leftside"><span class="sizeL">Tuesday </span><br>the 8th of <br>November,<br> 2022</h1>
+    <ul>
+        <li>helooo</li>
+        <li>helooo</li>
+        <li>helooo</li>
     </ul>
 </div>
 </body>
