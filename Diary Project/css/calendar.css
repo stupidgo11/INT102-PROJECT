@@ -90,3 +90,82 @@ a {
 @media screen and (max-width: 290px) {
   .weekdays li, .days li {width: 12.2%;}
 }
+
+/* shortdiary */
+#Indent {
+  text-decoration: none;
+}
+
+.sundays{
+  background-color: rgb(255, 77, 106);
+  padding: 25px 25px;
+  width: 100%;
+  
+}
+
+.mondays{
+  background-color: rgb(243, 255, 82);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.tuesdays{
+  background-color: rgb(255, 218, 224);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.wednesdays{
+  background-color: rgb(163, 248, 65);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.thursdays{
+  background-color: rgb(255, 150, 51);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.fridays{
+  background-color: rgb(104, 237, 255);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.saturdays{
+  background-color: rgb(221, 85, 255);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+#Indent .prev {
+  grid-area: 1/1/2/2;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+#Indent .next {
+  grid-area: 1/2/2/3;
+  justify-self: center;
+  align-self: center;
+  padding: 10px;
+  margin: 0;
+}
+
+#Indent ul {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 30px;
+}
+
+#Indent ul li {
+  color: black;
+  font-size: 30px;
+
+}
+
+.sizeR {
+  color: whitesmoke;
+  text-shadow: 2px 2px 8px #FF0000;
+  font-size: 40px;
+}
