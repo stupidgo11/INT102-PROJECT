@@ -45,10 +45,7 @@ span{
     color: orangered;
 }
 
-footer {
-    grid-area: -2/1/-1/11;
-    background-color: #c595d1;
-}
+
 
 @media screen {
     

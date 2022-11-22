@@ -58,6 +58,9 @@ nav {
   nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
     color: #fff;
   }
+  nav ul li:hover {
+    background-color: #e478ff;
+  }
   nav ul {
     margin: 0;
     padding: 0;
@@ -73,15 +76,15 @@ nav {
   }
   nav ul li a {
     display: block;
-    padding: .5em 5em;
+    padding: .5em 2em;
     margin: .75em;
     text-decoration: none; 
   }
 .bg{
-  grid-row-start: 1;
+  /* grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 2; */
   background-color: #d343f7;
 }
 
@@ -111,6 +114,34 @@ nav {
 footer {
   grid-area: -2/1/-1/-1;
   background-color: #dc6af8;
+  display: flex;
+  justify-content: center;
+}
+/* footer {
+    grid-area: -2/1/-1/11;
+    background-color: #c595d1;
+} */
+footer ul{
+  margin: 0;
+  padding: 1em;
+  height: 100%;
+  background-color: #dc6af8;
+}
+
+footer ul li{
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;  
+}
+
+footer ul li a{
+  color: black;
+}
+footer ul:hover,footer ul li a:hover {
+  background-color: #e478ff;
+  color: white;
 }
 
 figure {

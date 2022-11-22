@@ -31,6 +31,14 @@ body {font-family: Verdana, sans-serif;}
   padding-top: 10px;
 }
 
+.month .prev a:hover{
+  color: black;
+}
+
+.month .next a:hover{
+  color: black;
+}
+
 .weekdays {
   margin: 0;
   padding: 10px 0;
@@ -67,6 +75,12 @@ body {font-family: Verdana, sans-serif;}
   color: white !important
 }
 
+.days li .active:hover {
+  padding: 5px;
+  background: #e7b8f3;
+  color: white !important
+}
+
 .days li .actives {
   padding: 5px;
   background: #2be4f8;
@@ -89,8 +103,21 @@ a {
   
 }
 
+.sundays:hover{
+  background-color: rgba(255, 77, 107, 0.5);
+  padding: 25px 25px;
+  width: 100%;
+  
+}
+
 .mondays{
   background-color: rgb(243, 255, 82);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.mondays:hover{
+  background-color: rgba(243, 255, 82, 0.5);
   padding: 25px 25px;
   width: 100%;
 }
@@ -101,8 +128,20 @@ a {
   width: 100%;
 }
 
+.tuesdays:hover{
+  background-color: rgba(255, 218, 224, 0.5);
+  padding: 25px 25px;
+  width: 100%;
+}
+
 .wednesdays{
   background-color: rgb(163, 248, 65);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.wednesdays:hover{
+  background-color: rgba(163, 248, 65, 0.5);
   padding: 25px 25px;
   width: 100%;
 }
@@ -113,14 +152,32 @@ a {
   width: 100%;
 }
 
+.thursdays:hover{
+  background-color: rgba(255, 150, 51, 0.5);
+  padding: 25px 25px;
+  width: 100%;
+}
+
 .fridays{
   background-color: rgb(104, 237, 255);
   padding: 25px 25px;
   width: 100%;
 }
 
+.fridays:hover{
+  background-color: rgba(104, 237, 255, 0.5);
+  padding: 25px 25px;
+  width: 100%;
+}
+
 .saturdays{
   background-color: rgb(221, 85, 255);
+  padding: 25px 25px;
+  width: 100%;
+}
+
+.saturdays:hover{
+  background-color: rgba(221, 85, 255, 0.5);
   padding: 25px 25px;
   width: 100%;
 }
@@ -136,6 +193,17 @@ a {
   align-self: center;
   padding: 10px;
   margin: 0;
+  
+}
+
+#Indent .next a{
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+#Indent .next a:hover{
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 2px #ffffff;
 }
 
 #Indent ul {
