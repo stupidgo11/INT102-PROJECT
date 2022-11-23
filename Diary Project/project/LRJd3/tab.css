@@ -92,7 +92,7 @@ nav {
   display: grid;
   grid-template-rows: 20px [main-start] 500px auto [main-end] 20px 3em;
   grid-template-columns: [main-start]2fr[main-end] 20px 1fr;
-  background-color: #c595d1;
+  background-image: url(/project/LRJd3/images/black.jpg);
 }
 
 .left{
