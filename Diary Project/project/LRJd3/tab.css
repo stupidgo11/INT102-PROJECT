@@ -93,6 +93,7 @@ nav {
   grid-template-rows: 20px [main-start] 500px auto [main-end] 20px 3em;
   grid-template-columns: [main-start]2fr[main-end] 20px 1fr;
   background-image: url(/project/LRJd3/images/black.jpg);
+  background-size: cover;
 }
 
 .left{
