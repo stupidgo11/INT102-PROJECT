@@ -6,6 +6,7 @@
     grid-template-columns: 20px 1fr 20px [main-start] 2fr [main-end] 20px;
 }
 
+/* for set font size */
 .sizeL{
     font-size: 200%;
     color: rgb(255, 255, 255);
@@ -15,7 +16,7 @@
     font-size: 200%;
     color: rgb(123, 0, 255);
 }
-
+/* for highlight font */
 .cl{
     color: rgb(255, 39, 136);
 }
@@ -72,8 +73,6 @@
     margin: 0;
     padding: 0;
     color: gray;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 #day ul{
@@ -84,19 +83,19 @@
     color: rgb(0, 0, 0);
 }
 
-/* main {
-    font-family: 'Stint Ultra Expanded', Georgia, serif;
-    line-height: .5em;
-    color: #555;
-    padding: 1em;
-    border: hidden 4px #EADDC4;
-    border-radius: 25px;
-    grid-area: main;
-} */
-
+/* set obj to center */
 .cen{
     align-self: center;
     justify-self: center;
+}
+
+#layout {
+    display: grid;
+    grid-template-rows: 3em;
+}
+
+div ul li a{
+    color: white;
 }
 
 

@@ -1,7 +1,15 @@
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
-
+* {
+  box-sizing: border-box;
+}
+/* no list style */
+ul {
+  list-style-type: none;
+}
+/* font style for body */
+body {
+  font-family: Verdana, sans-serif;
+}
+/* month of calendar */
 .month {
   padding: 70px 25px;
   width: 100%;
@@ -39,6 +47,7 @@ body {font-family: Verdana, sans-serif;}
   color: black;
 }
 
+/* weeks of  calendar*/
 .weekdays {
   margin: 0;
   padding: 10px 0;
@@ -51,7 +60,7 @@ body {font-family: Verdana, sans-serif;}
   color: #666;
   text-align: center;
 }
-
+/* days of calendar */
 .days {
   padding: 10px 0;
   background: #eee;
@@ -68,7 +77,7 @@ body {font-family: Verdana, sans-serif;}
   color: #777;
   margin-top: 10px;
 }
-
+/* highlight day when was note diary */
 .days li .active {
   padding: 5px;
   background: #c595d1;
@@ -228,17 +237,12 @@ a {
 
 }
 
+/* for highlight font */
 .sizeR {
   color: whitesmoke;
   text-shadow: 2px 2px 8px #FF0000;
   font-size: 40px;
 }
-
-/* .sizeR:hover {
-  color: #FF0000;
-  text-shadow: 2px 2px 8px rgb(57, 38, 38);
-  font-size: 40px;
-} */
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
